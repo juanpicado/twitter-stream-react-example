@@ -30,7 +30,7 @@ config.plugins = config.plugins.concat( [
     }
   } ),
   new SaveAssetsJson( {
-    path: process.cwd(),
+    path: __dirname,
     filename: "assets.json"
   } ),
   new webpack.DefinePlugin( {
