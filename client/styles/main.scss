@@ -1,0 +1,40 @@
+$background: red;
+
+body {
+  background: $background;
+  font-family: "Helvetica Neue", serif;
+}
+
+.container-fluid {
+  margin: 0;
+}
+
+.cnnStream {
+
+  header {
+    background-color: red;
+    font-size: 18px;
+    color: white;
+    padding: 20px;
+  }
+
+  .tweet {
+      background-color: white;
+      border-bottom: 1px solid #7d7d7d;
+      padding: 10px;
+      min-height: 110px;
+  }
+  .tweet img{
+    padding: 3px;
+    width: auto;
+  }
+
+  .counter {
+      padding: 10px;
+      border-top: 1px solid #afadad;
+      border-bottom: 1px solid #afadad;
+      text-align: center;
+      background-color: #ececec;
+  }
+
+}
