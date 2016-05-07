@@ -14,7 +14,7 @@ class Stream extends Component {
 
   componentWillMount() {
         var self = this;
-        var socket = io();
+        var socket = io( "ws://" + window.location.hostname + ( window.location.port != "" ? ":" + window.location.port : "" ) + window.location.pathname );
         socket.connect();
 
         // Add a connect listener
