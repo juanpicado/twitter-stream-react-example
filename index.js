@@ -67,7 +67,7 @@ class TweetsHandler extends EventEmitter{
     }
 }
 
-var port = Number( process.env.PORT || 3001 );
+var port = Number( process.env.PORT || 8007 );
 var server = http.createServer( app ).listen( port, () => {
   var log = `Example app listening on port ${port}`;
   console.log( log );
