@@ -95,11 +95,11 @@ if ( env.production === false ) {
       "Access-Control-Allow-Origin": "http://localhost:3001",
       "Access-Control-Allow-Headers": "X-Requested-With"
     }
-  } ).listen( 3000, function( err ) {
+  } ).listen( 8008, function( err ) {
     if ( err ) {
       console.log( err );
     }
 
-    console.log( "webpack dev server listening on localhost:3000" );
+    console.log( "webpack dev server listening on localhost:8008" );
   } );
 }
