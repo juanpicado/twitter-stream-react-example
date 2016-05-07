@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "Søren Brokær <root@srn.io> (http://srn.io)",
   "scripts": {
-    "start": "node server",
+    "start": "node twitter-stream",
     "test": "jest",
     "coverage": "jest --coverage",
     "dist": "cross-env NODE_ENV=production webpack -p --progress",
